@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <title>Heroes of Might and Magic II</title>
+
+  <!-- Normalize CSS -->
+  <!-- <link rel="stylesheet" href="assets/css/normalize.css"> -->
+  <!-- Bootstrap CSS 3.3.7 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- title for game -->
+  <header class="row">
+        <p>Heroes of Might and Magic II</p>
+  </header>
+
+  <!-- main container for game -->
+  <div class="container" id="main-game-section">
+
+    <!-- Character Selection -->
+    <div class="container col-lg-12" id="characters-section">
+      <div class="container section-title">Select Your Character</div>
+    </div>
+
+    <div class="row">
+
+      <!-- Selected Character section -->
+      <div id="selected-character-section">
+        <div class="container section-title col-md-4">
+          <div id="selected-character"></div>
+        </div>
+      </div>
+
+      <!-- Fight section -->
+      <div class="section-title container col-md-4">
+        <div id="fight-section">
+          <div class="jumbotron" id="gameMessage"></div>
+          <span>
+              <button class="btn" id="attack-button">Attack</button>
+              <button class="btn" id="restart-button">Restart</button>
+          </span>
+        </div>
+      </div>
+
+      <!-- Defender section -->
+      <div id="action">
+        <div class="character-section">
+          <div class="container section-title col-md-4">
+            <div id="defender"></div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Defender area -->
+    <div class="container col-md-12" id="available-to-attack-section">
+        <div class="section-title"></div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+    <!-- Footer with controls 
+  <footer class="footer" id="footer">
+      <h3>test</h3>
+  </footer>  -->
+
+
+  <!-- Important jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+  </script>
+  <!-- Bootstrap Js -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <!-- Game Js -->
+  <script type="text/javascript" src="assets/js/game.js"></script>
+
+
+</body>
+
+</html>

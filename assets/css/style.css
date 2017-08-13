@@ -1,0 +1,188 @@
+/*
+* Author: Alex P
+* Project Name: Week-4-Game css
+* Version: 1
+* Date: 08.06.17
+* URL:
+*/
+
+
+/*=========
+Base Styles
+=========*/
+
+body {
+  height: 100%;
+  background: url("../img/bkgd_menu.png") repeat fixed;
+  font-family: 'MedievalSharp', cursive;
+  padding: 50px;
+  margin: 0;
+}
+
+header {
+  height: 50px; 
+  text-align: center;
+  background: url("../img/parch.png") center center;
+  width: 100%;
+  margin-top: -25px;
+  margin-bottom: 30px;
+  border: 2px solid brown;
+}
+
+h1, h2 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+footer {
+  height: 50px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+span {
+  text-align: center;
+}
+
+#main-game-section {
+  background: url("../img/bkgd_1.png") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 20px;
+  height: 100%;
+  border: 5px solid goldenrod;
+}
+
+
+/*=========
+Controllers
+=========*/
+
+#gameMessage {
+  text-align: center;
+  font-size: 15px;
+  font: #000;
+}
+
+#choose-enemy-button {
+  visibility: hidden;
+}
+
+#restart-button {
+  visibility: hidden;
+}
+
+#turn-counter {
+  font-size: 150%;
+}
+
+
+/*=========
+Characters
+=========*/
+
+.characterWrapper {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.character {
+  margin: 0px 40px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.character img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+}
+
+.character-name {
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.character-health {
+  text-align: center;
+}
+
+#characters-section {
+  display: inline-block;
+}
+
+
+/*=========
+Fighting
+=========*/
+
+.attack {
+  text-align: center;
+}
+
+.action {
+  margin: 15px 0px;
+}
+
+#attack-button {
+  visibility: hidden;
+}
+
+.btn {
+  background: #000;
+  color: #DBD2C6;
+}
+
+.enemy {
+  width: 150px;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+  background-image: url("../img/interface.png");
+  background-size: 300px;
+  border: 2px solid brown;
+}
+
+.target-enemy {
+  color: white;
+}
+
+
+/*=========
+Selection
+=========*/
+
+#available-to-attack-section {
+  text-align: center;
+}
+
+#available-to-attack-section img {
+  height: 150px;
+}
+
+
+/*=========
+Defender
+=========*/
+
+#defender-name {
+  text-align: center;
+}
+
+#defender-image {
+  padding: 0px 5px;
+  margin: 3px 0px;
+}
+
+#defender-health {
+  text-align: center;
+}
